@@ -18,10 +18,10 @@
 ;; USA
 ;;
 
-(defpackage "JAVA-LEXER-TEST"
-  (:use "COMMON-LISP" "TEST" "PARSER"))
+(defpackage :java-lexer-test
+  (:use :common-lisp :test :parser))
 
-(in-package "JAVA-LEXER-TEST")
+(in-package :java-lexer-test)
 
 (defvar *cr* (string #\return))
 (defvar *lf* (string #\newline))

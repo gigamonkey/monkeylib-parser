@@ -1,7 +1,7 @@
-(defpackage "JAVA-PARSER-TEST"
-  (:use "COMMON-LISP" "TEST" "PARSER"))
+(defpackage :java-parser-test
+  (:use :common-lisp :test :parser))
 
-(in-package "JAVA-PARSER-TEST")
+(in-package :java-parser-test)
 
 (defvar *cr* (string #\return))
 (defvar *lf* (string #\newline))

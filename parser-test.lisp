@@ -18,10 +18,10 @@
 ;; USA
 ;;
 
-(defpackage "PARSER-TEST"
-  (:use "COMMON-LISP" "TEST"))
+(defpackage :parser-test
+  (:use :common-lisp :test))
 
-(in-package "PARSER-TEST")
+(in-package :parser-test)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; TODO

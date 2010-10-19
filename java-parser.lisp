@@ -1,7 +1,7 @@
-(defpackage "JAVA-PARSER"
-  (:use "COMMON-LISP" "PARSER"))
+(defpackage :java-parser
+  (:use :common-lisp :parser))
 
-(in-package "JAVA-PARSER")
+(in-package :java-parser)
 
 ;; 4.1 The Kinds of Types and Values
 
