@@ -58,9 +58,11 @@
 (defpackage :com.gigamonkeys.parser.dot-parser
   (:use :cl :com.gigamonkeys.parser
 	:com.gigamonkeys.utilities)
+  (:shadowing-import-from :com.gigamonkeys.parser :!)
   (:shadow :string))
 
 (defpackage :com.gigamonkeys.parser.time-period-parser
   (:use :cl :com.gigamonkeys.parser
 	:com.gigamonkeys.utilities)
+  (:shadowing-import-from :com.gigamonkeys.parser :!)
   (:shadow :step :time))
